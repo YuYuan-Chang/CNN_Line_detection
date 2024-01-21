@@ -4,12 +4,13 @@
 This project is focused on detecting road lines using a Convolutional Neural Network (CNN). It includes a comprehensive Jupyter Notebook (`Line_detection.ipynb`) that details the entire process from image preprocessing to line detection.
 
 ## Project Overview
-- The project starts with the basic image preprocessing techniques, including converting images to grayscale, blurring, and applying Canny edge detection.
-- Masking the region of interest in the images is performed to focus on the road lines.
-- The Hough transform technique is employed to detect lines in the masked region.
-- Further optimization is done to refine the detected road markings, making the lines more accurate and reliable.
-- An example image (`road_testing.jpg`) is used to demonstrate the line detection process.
-- The notebook also includes code for applying this technique to video streams, allowing for real-time line detection.
+- `Line_detection.ipynb` is the central file of this project, detailing each step in the line detection process.
+- The process begins with image preprocessing, including converting to grayscale, blurring, and Canny edge detection.
+- A region of interest is defined in the images to focus exclusively on the road lines.
+- The Hough transform method is utilized for detecting lines in the specified region.
+- Additional optimization is performed to refine the road markings, enhancing the accuracy and reliability of the line detection.
+- An example image (`road_testing.jpg`) demonstrates the line detection technique.
+- The notebook also provides code for applying line detection to video streams, enabling real-time application.
 
 ## Technologies Used
 - Python
